@@ -61,12 +61,37 @@ https://docs.beagleboard.org/latest/boards/beagleplay/demos-and-tutorials/play-k
    latest Linux:
    https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/
 
-
-
-
 SMA Linux
    Kernel Build System
    https://www.kernel.org/doc/html/latest/kbuild/index.html
 
 SMA Design and specifications
 https://docs.beagleboard.org/latest/boards/beagleplay/03-design.html
+
+===============================================================================
+SMA: Connection
+SMA: Books
+
+===============================================================================
+
+SMA: Connection
+- WIFI
+- Grove
+- mikroBUS
+- QWIIC
+- CSI
+- OLDI
+- LSP clangd instead of JTag
+-
+
+
+SMA: Books
+https://docs.beagleboard.org/latest/books/index.html
+
+
+
+
+
+Toolchains
+===============================================================================
+https://developer.arm.com/-/media/Files/downloads/gnu/12.2.rel1/binrel/\arm-gnu-toolchain-12.2.rel1-x86_64-arm-none-eabi.tar.xz
