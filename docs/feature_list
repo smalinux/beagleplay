@@ -1,0 +1,103 @@
+
+because I will abuse all these features, oneday:
+
+64-bit
+quad-core processor and innovative connectivity options
+including WiFi
+Gigabit Ethernet
+sub-GHz
+wireless
+single-pair Ethernet with power-over-data-line
+ribbon-cable connections for cameras and touch-screen displays
+a socket for a battery-backed real-time-clock
+
+
+Processor TI AM6254 (multicore A53s with R5, M4s and PRUs)
+PMIC TPS6521901
+Memory 2GB DDR4
+Storage 16GB eMMC
+WiFi
+• PHY: WL1807MOD (roadmap to next-gen TI CC33XX WiFi 6 & BLE)
+• Antennas: 2.4GHz & 5GHz
+BLE/SubG
+• CC1352P7 M4+M0 with BeagleConnect firmware
+• BeagleConnect Wireless enabled
+• Antennas: 2.4GHz & SubG IEEE802.15.4 software defined radio (SDR)
+Ethernet
+• PHY: Realtek RTL8211F-VD-CG Gigabit Ethernet phy
+• Connector: integrated magnetics RJ-45
+Single-pair Ethernet
+• BeagleConnect Wired enabled
+• PHY: DP83TD510E 10Mbit 10BASE-T1L single-pair Ethernet phy
+• Connector: RJ-11 jack
+• Power (PoDL): Input: N/A (protection to 12V), Output: 5V @ 250mA
+USB type-C
+• PD/CC: None, HS shorted to both sides
+• Power: Input: 5V @ 3A, Output: N/A (USB-C DRP Not supported)
+HDMI
+• Transmitter: IT66121
+• Connector: full-size
+Other connectors
+• microSD
+• USB 2.0 type-A (480Mbit)
+• mikroBUS connector (I2C/UART/SPI/MCAN/MCASP/PWM/GPIO)
+• Grove connector (I2C/UART/ADC/PWM/GPIO)
+• QWIIC connector (I2C)
+• CSI connector compatible with BeagleBone AI-64, Raspberry Pi Zero / CM4 (22-pin)
+• OLDI connector (40-pin)
+
+The 3-port Gigabit Ethernet switch has one internal port and two external ports with Time-Sensitive Networking
+(TSN) support. An additional PRU module on the device enables real-time I/O capability for customer’s own
+use cases. In addition, the extensive set of peripherals included in AM62x enables system-level connectivity,
+such as: USB, MMC/SD, CSI Camera interface, OSPI, CAN-FD and GPMC for parallel host interface to an external
+ASIC/FPGA. The AM62x device also employs advanced power management support for portable and powersensitive applications.
+
+
+RTC Battery: BQ32002 Real Time Clock (RTC) Battery holder takes CR1220 3V battery
+User LEDs: Five user LEDs, board-power-and-boot section provides more details. These LEDs are connect to the AM6254 SoC
+JTAG (AM62): AM6254 SoC JTAG debug port
+mikroBUS: mikroBUS for MikroE Click boards or any compliant add-on
+OLDI: AM6254 OpenLDI(OLDI) display port
+CSI: AM6254 Camera Serial Interface (MIPI CSI-2)
+Grove: SeeedStudio Grove modules connection port
+QWIIC: SparkFun QWIIC / Adafruit STEMMA-QT port for I2C modules connectivity
+User Button: Programmable user button, also servers as boot mode slect button (SD Card/eMMC). Press down to select SD Card as boot medium
+SD Card: Use to expand storage, boot linux image or flash latest image on eMMC
+Reset button: Press to reset BeaglePlay board (AM6254 SoC)
+JTAG (CC1352): JTAG debug port for CC1352P7
+Power button: Press to shut-down (OFF), hold down to boot (ON)
+Power & Connectivity: Indicator LEDs for Power ON, CC1352 RF, and Single-pair connectivity
+LEDs
+Single-pair Ethernet: Single-pair Ethernet connectivity port with power over data line
+GigaBit Ethernet: 1Gb/s Wired internet connectivity
+HDMI Output: Full size HDMI port for connecting to external display monitors
+USB-A host port: Port to connect USB devices like cameras, keyboard & mouse combos, etc
+USB-C port: Power and Device data role port
+
+CC1352P7: 2.4GHz BLE + SubG IEEE 802.15.4 with 1 x 2.4GHz + 1 x SubG uFL antenna
+WL1807MOD: Dual band (2.4GHz & 5GHz) WiFi module with 2 x uFL antennas
+DP83TD510E: Single-pair IEEE 802.3cg 10BASE-T1L Ethernet PHY
+RTL8211F: Gigabit IEEE 802.11 Ethernet PHY
+AM6254: Main SoC
+16GB eMMC: Flash storage
+2GB DDR4: RAM / Memory
+BQ32002: Real Time Clock (RTC)
+TPS6521901: Power Management IC
+IT66121: HDMI Transmitter
+
+
+AM62x Sitara™ Processors from Texas Instruments are Human-machine-interaction SoC with Arm® Cortex®-
+A53-based edge AI and full-HD dual display. AM6254 which is on your BeaglePlay board has a multi core design
+with Quad 64-bit Arm® Cortex®-A53 microprocessor subsystem at up to 1.4 GHz, Single-core Arm® Cortex®-
+M4F MCU at up to 400MHz, and Dedicated Device/Power Manager. Talking about the multimedia capabilities of
+the processor you can connect upto two display monitors with 1920x1080 @ 60fps each, additionally there is
+a OLDI/LVDS (4 lanes - 2x) and 24-bit RGB parallel interface for connecting external display panels. One 4 Lane
+CSI camera interface is also available which has support for 1,2,3 or 4 data lane mode up to 2.5Gbps speed.
+The list of features is very long and if you are interested to know more about the AM62x SoC you may take a
+look at AM62x Sitara™ Processors datasheet.
+https://www.ti.com/product/AM625
+https://www.ti.com/lit/ds/symlink/am625.pdf
+
+
+
+
